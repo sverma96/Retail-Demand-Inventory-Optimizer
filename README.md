@@ -36,8 +36,8 @@ Plotted cost against service level from 80% to 99% — cost rises sharply as the
 # Files
 | File | Description |
 |---|---|
-| 01_forecast_demand.ipynb | Loads data, engineers features, trains and evaluates the forecasting model |
-| 02_optimize_inventory.ipynb | Loads the forecast, computes reorder points and safety stock, plots the cost tradeoff |
+| 01_ForecastDemand.ipynb | Loads data, engineers features, trains and evaluates the forecasting model |
+| 02_Optimize_Inventory.ipynb | Loads the forecast, computes reorder points and safety stock, plots the cost tradeoff |
 | demand_forecast_summary.csv | Model output: predicted mean/std daily demand per store-item (feeds notebook 2) |
 | inventory_policy.csv | Final output: safety stock, reorder point, and holding cost per store-item |
 | feature_importance.png | Which features drove the forecasting model's predictions |
