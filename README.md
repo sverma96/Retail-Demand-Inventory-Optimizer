@@ -23,8 +23,11 @@ Feature importance showed recent lagged sales (lag_1, rolling_mean_7) as the str
 
 Takes the forecast's mean and standard deviation of demand per store-item and applies the standard reorder-point / safety-stock model used in supply chain planning:
 
+```
 Safety Stock   = z × σ(daily demand) × √(lead time)
+
 Reorder Point  = (avg daily demand × lead time) + Safety Stock
+```
 
 Business assumptions (stated explicitly, not hidden in code): 3-day lead time, 95% target service level, ₹5 unit cost, 20% annual holding cost rate.
 
